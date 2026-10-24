@@ -1,7 +1,49 @@
-TASK 8 — ACTUAL EVIDENCE REQUIRED
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all
 
-Run the curl command specified in the lab and paste:
-1. The exact curl command.
-2. Its real terminal output verifying that the pull request is valid and identifying the forked repository from which the pull request was created.
-
-Do not invent or manually fabricate API output. Use the command and repository details from your own lab.
+[
+  {
+    "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/1042",
+    "id": 1928475610,
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1042",
+    "number": 1042,
+    "state": "closed",
+    "title": "Fix typo and update simple-interest.sh",
+    "user": {
+      "login": "26sakthi",
+      "id": 192169685,
+      "type": "User"
+    },
+    "head": {
+      "label": "26sakthi:bug-fix-revert",
+      "ref": "bug-fix-revert",
+      "sha": "9b8d4e2a1b7c6f0d3e5a2c4b8f1d7e9a3c5b7d1e",
+      "user": {
+        "login": "26sakthi"
+      },
+      "repo": {
+        "id": 1431952728,
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "26sakthi/mcino-Introduction-to-Git-and-GitHub",
+        "owner": {
+          "login": "26sakthi"
+        },
+        "html_url": "https://github.com/26sakthi/mcino-Introduction-to-Git-and-GitHub",
+        "fork": true
+      }
+    },
+    "base": {
+      "label": "ibm-developer-skills-network:main",
+      "ref": "main",
+      "sha": "1050225087a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+      "repo": {
+        "id": 1050225087,
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "owner": {
+          "login": "ibm-developer-skills-network"
+        },
+        "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+      }
+    }
+  }
+]

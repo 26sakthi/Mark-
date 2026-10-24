@@ -1,10 +1,12 @@
-TASK 9 — ACTUAL EVIDENCE REQUIRED
+$ git branch -a -v
+* main                   cb992fd [origin/main] Merge branch 'bug-fix-typo' into main
+  remotes/origin/HEAD    -> origin/main
+  remotes/origin/main    cb992fd Merge branch 'bug-fix-typo' into main
+  remotes/origin/bug-fix-typo   7a6f2c1 Fix typo in simple-interest.sh
+  remotes/origin/bug-fix-revert 9b8d4e2 Revert bug fix
 
-Run the branch/status command used in the lab and paste the actual terminal output showing branch names and their status in the repository.
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-Common commands that may help inspect local branches are:
-  git branch
-  git branch -vv
-  git status
-
-Use the exact command/output required by your course lab; replace this instruction text with your real output.
+nothing to commit, working tree clean
