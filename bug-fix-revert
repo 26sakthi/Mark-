@@ -1,0 +1,7 @@
+TASK 8 — ACTUAL EVIDENCE REQUIRED
+
+Run the curl command specified in the lab and paste:
+1. The exact curl command.
+2. Its real terminal output verifying that the pull request is valid and identifying the forked repository from which the pull request was created.
+
+Do not invent or manually fabricate API output. Use the command and repository details from your own lab.

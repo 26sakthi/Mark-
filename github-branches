@@ -1,0 +1,10 @@
+TASK 9 — ACTUAL EVIDENCE REQUIRED
+
+Run the branch/status command used in the lab and paste the actual terminal output showing branch names and their status in the repository.
+
+Common commands that may help inspect local branches are:
+  git branch
+  git branch -vv
+  git status
+
+Use the exact command/output required by your course lab; replace this instruction text with your real output.

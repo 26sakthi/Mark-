@@ -1,0 +1,7 @@
+TASK 7 — ACTUAL EVIDENCE REQUIRED
+
+Run the lab's merge steps and paste the real terminal output. It must include:
+  git checkout main
+  git merge bug-fix-typo
+
+The output should clearly show that 1 file changed during the merge. If the merge says there is nothing to merge or reports a different number of changed files, follow the lab steps and capture the correct real output.
